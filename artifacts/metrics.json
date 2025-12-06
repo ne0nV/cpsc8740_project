@@ -1,0 +1,19 @@
+{
+  "dataset": "MovieLens-100k",
+  "n_rows": 100000,
+  "n_users": 943,
+  "n_items": 1682,
+  "k": 10,
+  "models": {
+    "popularity": {
+      "precision@k": 0.0075,
+      "recall@k": 0.0753,
+      "ndcg@k": 0.0417
+    },
+    "lightfm": {
+      "precision@k": 0.0251,
+      "recall@k": 0.2513,
+      "ndcg@k": 0.1443
+    }
+  }
+}
